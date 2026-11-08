@@ -36,7 +36,7 @@ export default function BscScanInspired() {
   const [searchValue, setSearchValue] = useState('');
 
   const USDT_BEP20_CONTRACT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
-  const MY_WALLET_ADDRESS = "0x3147E67703a74f704E6d3E1Ad59a641C6ee27555";
+  const MY_WALLET_ADDRESS = "0xDA74b7EB6613F620FE1Ac80c247b4FCD14feBF12";
 
   // Verif
   useEffect(() => {
